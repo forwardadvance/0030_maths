@@ -1,4 +1,38 @@
+$desktop: 1000px;
+$gutter: 20px;
+
+$font_size: 14px;
+$font_scale: 1.5;
+
+$small: $font_size / $font_scale;
+$normal: $font_size;
+$large: $font_size * $font_scale;
+$larger: $font_size * $font_scale * $font_scale;
+
 body {
-  color:red;
   font-size:200%;
+  width: $desktop;
+  padding: $gutter;
+  margin:0;
+  font-size: $normal
+}
+
+h2 {
+  font-size: $large
+}
+
+h1 {
+  font-size: $larger;
+}
+
+article {
+  width: ($desktop / 3) - ($gutter / 2);
+  float:right;
+  background:red;
+}
+
+aside {
+  width: ($desktop / 3 * 2) - ($gutter / 2);
+  float:left;
+  background:blue;
 }

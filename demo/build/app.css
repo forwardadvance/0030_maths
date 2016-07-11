@@ -1,0 +1,24 @@
+body {
+  font-size: 200%;
+  width: 1000px;
+  padding: 20px;
+  margin: 0;
+  font-size: 14px; }
+
+h2 {
+  font-size: 21px; }
+
+h1 {
+  font-size: 31.5px; }
+
+article {
+  width: 323.33333px;
+  float: right;
+  background: red; }
+
+aside {
+  width: 656.66667px;
+  float: left;
+  background: blue; }
+
+/*# sourceMappingURL=app.css.map*/
